@@ -27,7 +27,7 @@ function draw(){
       //a rectangle
       rect(x,100,100,100);
       
-      //this code is going to get the circle to move on its own
+      //this code is going to get the rectangle to move on its own
       if(x>width || x<0){
           console.log("RECTANGLE IS OFF THE SCREEN!!!")
           speed = speed * -1;
